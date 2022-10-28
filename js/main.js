@@ -45,7 +45,7 @@ function longString(string, lenght) {
   return string.lenght <= lenght;
 }
 
-const  = function (index) {
+const objectGeneration = function(index) {
   id: index,
   url:`photos/${index}.jpg`,
   description: DISKRIPTION__SET[randomNumber(0, DISKRIPTION__SET.length-1)],
